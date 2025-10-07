@@ -23,7 +23,7 @@ class KalkulatorProsty
 
     static square()
     {
-        if (a < 0) throw new Error("chy cos sobie uroiles :O");
+        if (a < 0) throw new Error("chyba cos sobie uroiles :O");
         return Math.sqrt(a);
     }
 }
